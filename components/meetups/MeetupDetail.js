@@ -8,6 +8,8 @@ function MeetupDetail(props) {
       <Image
         src={props.image}
         alt={props.title}
+				width="600"
+				height="400"
       />
       <h1>{props.title}</h1>
       <address>{props.address}</address>
