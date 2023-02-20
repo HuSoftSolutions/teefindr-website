@@ -1,11 +1,11 @@
-/* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
 import classes from './MeetupDetail.module.css'
+import Image from "next/image";
 
 function MeetupDetail(props) {
   return (
     <section className={classes.detail}>
-      <img
+      <Image
         src={props.image}
         alt={props.title}
       />
