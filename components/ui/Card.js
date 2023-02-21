@@ -1,7 +1,7 @@
 import classes from './Card.module.css';
 
 function Card(props) {
-  return <div className={classes.card}>{props.children}</div>;
+  return <div className="border rounded bg-gray-200">{props.children}</div>;
 }
 
 export default Card;
