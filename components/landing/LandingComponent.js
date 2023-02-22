@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React, { useState, useEffect } from "react";
 import RequestFormComponent from "@/components/RequestDemoComponent";
 import TypingAnimation from "@/components/TypingAnimation/TypingAnimation";
@@ -46,7 +45,7 @@ const LandingComponent = () => {
               style="text-[45px] font-bold text-primary opacity-100 flex items-center"
             />
             <p className="font-bold text-white text-xl my-1 mt-4">
-              TeeFindr is the Pro Shop that's always open.
+              TeeFindr is the Pro Shop thats always open.
             </p>
             <p className="text-white font-thin">
               Pay monthly, reduce no-shows, and cancel anytime with no fees.
