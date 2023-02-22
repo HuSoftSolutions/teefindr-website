@@ -39,12 +39,12 @@ const LandingComponent = () => {
         }}
       >
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-full h-[500px] bg-gradient-to-t from-white bg-opacity-0 flex items-center justify-center flex-col min-w-[400px]">
-          <div className="p-5 bg-slate-800 rounded-xl shadow-2xl">
+          <div className="p-5 bg-slate-800 bg-opacity-90 rounded-xl shadow-2xl m-4">
             <TypingAnimation
               text="Finally, booking done right."
-              style="text-[45px] font-bold text-primary opacity-100 flex items-center"
+              style="text-2xl md:text-[45px] font-bold text-primary opacity-100 flex items-center"
             />
-            <p className="font-bold text-white text-xl my-1 mt-4">
+            <p className="font-bold text-white text-xl my-1 mt-4 ">
               TeeFindr is the Pro Shop thats always open.
             </p>
             <p className="text-white font-thin">
@@ -110,17 +110,17 @@ function InfoStrip() {
   return (
     <div className="flex w-full h-fit py-20 px-4l">
       <div className="shadow-xl mx-4 w-full flex justify-between px-20 text-xl bg-gray-200 text-slate-700 min-h-[75px] h-fit items-center font-bold rounded-xl flex-wrap">
-        <span className="flex items-center  transition duration-200 transform hover:scale-110">
+        <span className="flex items-center  transition duration-200 transform hover:scale-110 p-3">
           {" "}
           <BsPeopleFill className="text-primary pr-2 w-8 h-8" />
           20K+ Golfers
         </span>
-        <span className="flex items-center  transition duration-200 transform hover:scale-110">
+        <span className="flex items-center  transition duration-200 transform hover:scale-110 p-3">
           {" "}
           <BsBookmarkCheckFill className="text-primary pr-2 w-8 h-8" />
           100K+ Rounds Booked
         </span>
-        <span className="flex items-center  transition duration-200 transform hover:scale-110">
+        <span className="flex items-center  transition duration-200 transform hover:scale-110 p-3">
           {" "}
           <AiTwotonePushpin className="text-primary pr-2 w-8 h-8" />
           7+ Locations
