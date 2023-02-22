@@ -22,3 +22,8 @@ h6 {
   font-family: 'Lato', sans-serif;
 }
 
+.animate-fade {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
