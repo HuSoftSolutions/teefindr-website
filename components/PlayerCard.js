@@ -15,7 +15,7 @@ const PlayerCard = ({ name, img, title, review }) => {
           <div className="font-bold text-xl">{name}</div>
           <div className="font-thin text-xs mb-2">{title}</div>
           <p className="text-base italic text-center mt-6 text-wrap">
-            "{review}"
+            {review}
           </p>
         </div>
         {/* <div className="px-6 pt-4 pb-2">
