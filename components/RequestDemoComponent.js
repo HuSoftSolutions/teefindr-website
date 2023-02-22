@@ -12,7 +12,7 @@ function RequestDemoForm() {
   };
 
   return (
-    <div className="max-w-2xl p-5 rounded-xl shadow-2xl bg-white text-primary mx-4">
+    <div className="max-w-2xl p-5 rounded-xl shadow-2xl bg-white text-primary mx-4 w-[600px]">
       <h2 className="text-2xl font-medium mb-4 text-primary">Request a Demo</h2>
       <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-6">
         <div>

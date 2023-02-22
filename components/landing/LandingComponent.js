@@ -89,7 +89,7 @@ const LandingComponent = () => {
         />
       </div>
 
-      <div className="bg-slate-400 w-full pt-10 pb-20">
+      <div className="bg-slate-400 w-full pt-10 pb-20 flex justify-center">
         <RequestFormComponent />
       </div>
     </div>
