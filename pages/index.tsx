@@ -9,7 +9,7 @@ function HomePage(props: any) {
     <Fragment>
       <Head>
         <title>TeeFindr</title>
-        <meta name="description" content="Browse a huge list of" />
+        <meta name="Booking Software" content="Finally, booking software done right. TeeFindr is a real-time booking management tool for golf courses and simulators." />
       </Head>
 			<LandingComponent />
     </Fragment>
