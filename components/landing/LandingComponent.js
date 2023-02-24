@@ -41,7 +41,7 @@ const LandingComponent = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-full h-[500px] bg-gradient-to-t from-white bg-opacity-0 flex items-center justify-center flex-col min-w-[400px]">
           <div className="p-5 bg-slate-800 bg-opacity-90 rounded-xl shadow-2xl m-4">
             <TypingAnimation
-              text="Finally, booking done right."
+              text="!Finally, booking done right."
               style="text-2xl md:text-[45px] font-bold text-primary opacity-100 flex items-center"
             />
             <p className="font-bold text-white text-xl my-1 mt-4 ">
